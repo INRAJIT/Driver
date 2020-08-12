@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/view_padding_medium">
+
+    <!-- id added by rajit in 1st textview-->
+    <TextView
+        android:id="@+id/pickup_id"
+        style="@style/CustomTextViewMediumBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:layout_marginBottom="@dimen/view_bottom_margin_small"/>
+
+    <TextView
+        android:id="@+id/waste_stream_name"
+        style="@style/CustomTextViewMediumBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLASTIC"
+        android:layout_marginBottom="@dimen/view_bottom_margin_small"/>
+
+    <TextView
+        android:id="@+id/quantity"
+        style="@style/CustomTextViewSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Picked - 2 Bags"
+        android:textColor="@color/colorTextGrey"
+        android:layout_marginBottom="@dimen/view_bottom_margin_very_small"/>
+
+    <TextView
+        android:id="@+id/details"
+        style="@style/CustomTextViewSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bag 1 - 47 kg"
+        android:textColor="@color/colorTextGrey"
+        android:layout_marginBottom="@dimen/view_bottom_margin_very_small"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorTextGrey"></View>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/view_padding_default">
+
+    <TextView
+        style="@style/CustomTextViewBigHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_phone_number_verification" />
+
+    <TextView
+        android:id="@+id/otp_info"
+        style="@style/CustomTextViewLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_phone_verification_info"
+        android:layout_marginTop="@dimen/view_top_margin_default"/>
+
+    <TextView
+        style="@style/CustomTextViewSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_enter_otp"
+        android:layout_marginTop="@dimen/view_top_margin_default"/>
+
+    <com.chaos.view.PinView
+        android:id="@+id/otp"
+        style="@style/pinViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/view_top_margin_medium"
+        android:inputType="number"
+        app:itemWidth="@dimen/edit_text_height"
+        app:itemHeight="@dimen/edit_text_height"
+        app:itemCount="4"
+        app:viewType="line"
+        app:lineColor="@color/colorInputLine"
+        app:lineWidth="2dp"
+        app:itemSpacing="@dimen/view_right_margin_very_small" />
+
+    <TextView
+        android:id="@+id/resend"
+        style="@style/CustomTextViewSmallBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_otp_resend"
+        android:textColor="@color/colorPrimaryGreen"
+        android:layout_marginTop="@dimen/view_top_margin_small"/>
+
+    <Button
+        android:id="@+id/verify"
+        style="@style/CustomButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/button_top_margin"
+        android:background="@drawable/button_bg"
+        android:text="@string/btn_verify" />
+
+</LinearLayout>

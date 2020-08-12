@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/contact_details"
+            style="@style/CustomTextViewLargeBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/view_top_margin_default"
+            android:text="@string/signup_contact_details"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/CustomTextViewMediumBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/view_top_margin_default"
+            android:text="@string/signup_name"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/contact_details" />
+
+        <TextView
+            android:id="@+id/first_name"
+            style="@style/CustomTextViewSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/view_top_margin_medium"
+            android:text="@string/signup_first_name"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_first_name"
+            style="@style/CustomEditText"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/edit_text_margin"
+
+            android:layout_marginEnd="@dimen/view_right_margin_default"
+            android:inputType="textPersonName"
+            android:imeOptions="actionNext"
+            app:backgroundTint="@color/colorInputLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/first_name" />
+
+        <TextView
+            android:id="@+id/middle_name"
+            style="@style/CustomTextViewSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/view_top_margin_small"
+            android:text="@string/signup_middle_name"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_first_name" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_middle_name"
+            style="@style/CustomEditText"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/edit_text_margin"
+
+            android:layout_marginEnd="@dimen/view_right_margin_default"
+            android:inputType="textPersonName"
+            android:imeOptions="actionNext"
+            app:backgroundTint="@color/colorInputLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/middle_name" />
+
+        <TextView
+            android:id="@+id/last_name"
+            style="@style/CustomTextViewSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/view_top_margin_small"
+            android:text="@string/signup_last_name"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_middle_name" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_last_name"
+            style="@style/CustomEditText"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/edit_text_margin"
+
+            android:layout_marginEnd="@dimen/view_right_margin_default"
+            android:inputType="textPersonName"
+            android:imeOptions="actionNext"
+            app:backgroundTint="@color/colorInputLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/last_name" />
+
+        <TextView
+            android:id="@+id/phone"
+            style="@style/CustomTextViewMediumBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/view_top_margin_medium"
+            android:text="@string/signup_phone_number"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_last_name" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_phone"
+            style="@style/CustomEditText"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/edit_text_margin"
+            android:layout_marginEnd="@dimen/view_right_margin_default"
+
+            android:hint="@string/signup_phone_number_hint"
+            android:maxLength="10"
+            android:inputType="phone"
+            android:imeOptions="actionNext"
+            app:backgroundTint="@color/colorInputLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+        <TextView
+            android:id="@+id/address"
+            style="@style/CustomTextViewSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/view_top_margin_medium"
+            android:text="@string/signup_address"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_phone" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_address_line_one"
+            style="@style/CustomEditText"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/edit_text_margin"
+
+            android:layout_marginEnd="@dimen/view_right_margin_default"
+            android:inputType="textPostalAddress"
+            android:imeOptions="actionNext"
+            app:backgroundTint="@color/colorInputLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/address" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_address_line_two"
+            style="@style/CustomEditText"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/edit_text_margin"
+
+            android:layout_marginEnd="@dimen/view_right_margin_default"
+            android:inputType="textPostalAddress"
+            android:selectAllOnFocus="true"
+            app:backgroundTint="@color/colorInputLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_address_line_one" />
+
+        <TextView
+            android:id="@+id/pincode"
+            style="@style/CustomTextViewSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/view_top_margin_small"
+            android:text="@string/signup_pincode"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_address_line_two" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_pincode"
+            style="@style/CustomEditText"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/edit_text_margin"
+
+            android:layout_marginEnd="@dimen/view_right_margin_default"
+            android:inputType="number"
+            android:imeOptions="actionDone"
+            app:backgroundTint="@color/colorInputLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pincode" />
+
+        <TextView
+            android:id="@+id/country"
+            style="@style/CustomTextViewSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/view_top_margin_small"
+            android:text="@string/signup_country"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_pincode" />
+
+        <LinearLayout
+            android:id="@+id/select_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/edit_text_margin"
+            android:layout_marginEnd="@dimen/view_right_margin_default"
+            android:background="@drawable/rounded_corner_grey_box"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/view_padding_medium"
+            android:paddingTop="@dimen/view_padding_small"
+            android:paddingRight="@dimen/view_padding_medium"
+            android:paddingBottom="@dimen/view_padding_small"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/country">
+
+            <TextView
+                android:id="@+id/text_country"
+                style="@style/CustomTextViewSmall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/select_country"
+                android:textColor="@color/colorTextEdit" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_dropdown"></ImageView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/state"
+            style="@style/CustomTextViewSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/view_top_margin_small"
+            android:text="@string/signup_state"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/select_country" />
+
+        <LinearLayout
+            android:id="@+id/select_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/edit_text_margin"
+            android:layout_marginEnd="@dimen/view_right_margin_default"
+            android:background="@drawable/rounded_corner_grey_box"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/view_padding_medium"
+            android:paddingTop="@dimen/view_padding_small"
+            android:paddingRight="@dimen/view_padding_medium"
+            android:paddingBottom="@dimen/view_padding_small"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/state">
+
+            <TextView
+                android:id="@+id/text_state"
+                style="@style/CustomTextViewSmall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/select_state"
+                android:textColor="@color/colorTextEdit" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_dropdown"></ImageView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/city"
+            style="@style/CustomTextViewSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/view_top_margin_small"
+            android:text="@string/signup_city"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/select_state" />
+
+        <LinearLayout
+            android:id="@+id/select_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/edit_text_margin"
+            android:layout_marginEnd="@dimen/view_right_margin_default"
+            android:background="@drawable/rounded_corner_grey_box"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/view_padding_medium"
+            android:paddingTop="@dimen/view_padding_small"
+            android:paddingRight="@dimen/view_padding_medium"
+            android:paddingBottom="@dimen/view_padding_small"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/city">
+
+            <TextView
+                android:id="@+id/text_city"
+                style="@style/CustomTextViewSmall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/select_city"
+                android:textColor="@color/colorTextEdit" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_dropdown"></ImageView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/next"
+            style="@style/CustomButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginStart="@dimen/view_left_margin_default"
+            android:layout_marginTop="@dimen/button_top_margin"
+            android:layout_marginEnd="@dimen/view_right_margin_default"
+            android:layout_marginBottom="@dimen/view_bottom_margin_default"
+            android:background="@drawable/button_bg"
+            android:text="@string/btn_next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/select_city" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/view_padding_default">
+
+        <TextView
+            style="@style/CustomTextViewMediumBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category" />
+
+        <LinearLayout
+            android:id="@+id/select_case_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_top_margin_small"
+            android:background="@drawable/rounded_corner_grey_box"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/view_padding_medium"
+            android:paddingTop="@dimen/view_padding_small"
+            android:paddingRight="@dimen/view_padding_medium"
+            android:paddingBottom="@dimen/view_padding_small">
+
+            <TextView
+                android:id="@+id/case_category"
+                style="@style/CustomTextViewMedium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/select_case_category"
+                android:textColor="@color/colorTextGrey" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_dropdown"></ImageView>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/CustomTextViewMediumBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_top_margin_default"
+            android:text="@string/case_help" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/comment"
+            style="@style/CustomEditText"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="@dimen/view_top_margin_small"
+            android:background="@drawable/rounded_corner_grey_box"
+            android:gravity="top"></androidx.appcompat.widget.AppCompatEditText>
+
+        <Button
+            android:id="@+id/submit"
+            style="@style/CustomButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="@dimen/view_top_margin_default"
+            android:background="@drawable/button_bg"
+            android:text="@string/btn_submit" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_bg"
+        android:backgroundTint="@color/colorDullWhite"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/view_padding_small"
+        android:paddingBottom="@dimen/view_padding_default"
+        app:behavior_hideable="false"
+        app:behavior_peekHeight="32dp"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+        <View
+            android:layout_width="35dp"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="@dimen/view_bottom_margin_very_small"
+            android:background="@color/colorTextGrey"></View>
+
+        <View
+            android:layout_width="35dp"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="@dimen/view_bottom_margin_medium"
+            android:background="@color/colorTextGrey"></View>
+
+        <TextView
+            android:id="@+id/case_log_list"
+            style="@style/CustomTextViewMediumBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/case_log_list"
+            android:textColor="@color/colorTextBlue" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

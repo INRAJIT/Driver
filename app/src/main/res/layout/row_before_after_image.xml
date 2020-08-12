@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:layout_marginRight="@dimen/view_right_margin_small"
+    android:background="@android:color/darker_gray">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ImageView>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_close"
+        android:layout_gravity="top|right"
+        android:layout_margin="@dimen/view_margin_small">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/before_after"
+        style="@style/CustomButton"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/btn_before_pickup"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/view_margin_small"/>
+
+</FrameLayout>

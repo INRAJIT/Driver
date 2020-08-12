@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "281271627016",
+    "firebase_url": "https://mottainaicollanomics.firebaseio.com",
+    "project_id": "mottainaicollanomics",
+    "storage_bucket": "mottainaicollanomics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281271627016:android:2b65a5eb66ca70d13710bd",
+        "android_client_info": {
+          "package_name": "com.mottainai.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281271627016-6omphc7rg7mi8ij8r8jsq45nemh80qm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwmPrgEjFGmOFtdZuwhXMloptBY7Q8x08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281271627016-6omphc7rg7mi8ij8r8jsq45nemh80qm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

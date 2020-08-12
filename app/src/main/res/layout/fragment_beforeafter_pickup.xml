@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/view_padding_default"
+    android:clickable="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/view_left_margin_medium"
+        android:layout_marginEnd="@dimen/view_right_margin_medium"
+        android:background="@drawable/rounded_corner_grey_box"
+        android:padding="@dimen/view_padding_very_small">
+
+        <ImageView
+            android:id="@+id/trash_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/before"
+                style="@style/CustomButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/view_top_margin_default"
+                android:background="@drawable/button_bg"
+                android:text="@string/btn_after_pickup" />
+
+            <Button
+                android:id="@+id/after"
+                style="@style/CustomButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/view_top_margin_default"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/button_bg"
+                android:text="@string/btn_before_pickup" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

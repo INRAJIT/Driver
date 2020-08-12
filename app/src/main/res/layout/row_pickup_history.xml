@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/list_row_margin"
+    android:background="@android:color/white"
+    android:elevation="@dimen/card_elevation_medium">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/view_padding_small">
+
+            <TextView
+                android:id="@+id/customer_name"
+                style="@style/CustomTextViewMediumBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/view_bottom_margin_small"
+                android:text="Protea Hotel" />
+
+            <TextView
+                android:id="@+id/address"
+                style="@style/CustomTextViewSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/view_bottom_margin_small"
+                android:drawableLeft="@drawable/ic_location"
+                android:text="2 Assibifi Road, Agidingbi, Ikeja, Lagos"
+                android:textColor="@color/colorTextGrey" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="@dimen/view_bottom_margin_small"
+                android:background="@color/colorTextGrey"></View>
+
+            <TextView
+                style="@style/CustomTextViewVerySmallBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/view_bottom_margin_very_small"
+                android:text="Material Picked" />
+
+            <TextView
+                android:id="@+id/waste_stream_name"
+                style="@style/CustomTextViewVerySmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/view_bottom_margin_very_small"
+                android:drawableLeft="@drawable/ic_bin"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:text="Plastic, Paper, Organic"
+                android:textColor="@color/colorTextGrey" />
+
+            <TextView
+                style="@style/CustomTextViewVerySmallBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/view_bottom_margin_very_small"
+                android:text="Time of Pickup" />
+
+            <TextView
+                android:id="@+id/time"
+                style="@style/CustomTextViewVerySmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/view_bottom_margin_very_small"
+                android:drawableLeft="@drawable/ic_clock"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:text="12:30 pm"
+                android:textColor="@color/colorTextGrey" />
+
+            <TextView
+                style="@style/CustomTextViewVerySmallBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/view_bottom_margin_very_small"
+                android:text="Bin Details" />
+
+
+            <TextView
+                android:id="@+id/container"
+                style="@style/CustomTextViewVerySmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/view_bottom_margin_very_small"
+                android:drawableLeft="@drawable/ic_bin"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:text="Wheeler Bin, Duno Bin"
+                android:textColor="@color/colorTextGrey" />
+
+            <TextView
+                style="@style/CustomTextViewVerySmallBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/view_bottom_margin_very_small"
+                android:text="Weight" />
+
+            <TextView
+                android:id="@+id/weight"
+                style="@style/CustomTextViewVerySmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_weight"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:text="4kg, 7kg, 12kg"
+                android:textColor="@color/colorTextGrey" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#252c41</color>
+    <color name="colorPrimaryDark">#016098</color>
+    <color name="colorAccent">#16b473</color>
+
+    <color name="colorPrimaryGreen">#16b473</color>
+    <color name="colorDarkGreen">#129D64</color>
+    <color name="colorBlue">#24569b</color>
+    <color name="colorTextDefault">#121314</color>
+    <color name="colorTextEdit">#7c7c7c</color>
+    <color name="colorInputLine">#b5b5b5</color>
+    <color name="colorStatusGreen">#64c91a</color>
+    <color name="colorStatusRed">#e32315</color>
+    <color name="colorStatusYellow">#ee961a</color>
+    <color name="colorStatusRedLight">#fb5b3a</color>
+    <color name="colorTextYellow">#e99605</color>
+    <color name="colorTextGrey">#6a6d74</color>
+    <color name="colorTextGreyLight">#7d7d7d</color>
+    <color name="colorTextBlue">#24569b</color>
+    <color name="colorNotificationGrey">#9e9e9e</color>
+    <color name="colorNotificationBlue">#3875ea</color>
+    <color name="colorNotificationGreen">#7cbd35</color>
+    <color name="colorBoxBg">#f2f2f2</color>
+    <color name="colorDullWhite">#FAFAFA</color>
+
+</resources>

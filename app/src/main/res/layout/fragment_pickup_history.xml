@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDullWhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/view_padding_default">
+
+        <LinearLayout
+            android:id="@+id/select_date"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner_grey_box"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/view_padding_medium"
+            android:paddingRight="@dimen/view_padding_medium"
+            android:paddingTop="@dimen/view_padding_small"
+            android:paddingBottom="@dimen/view_padding_small">
+
+            <TextView
+                android:id="@+id/text_date"
+                style="@style/CustomTextViewMedium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/select_date"
+                android:textColor="@color/colorTextGrey" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_down_arrow"></ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBoxBg"
+        android:orientation="vertical"
+        android:padding="@dimen/view_padding_default">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_pickup_history"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notifications"
+            android:title="@string/menu_notification" />s
+        <item
+            android:id="@+id/nav_pickup_history"
+            android:icon="@drawable/ic_purchase_history"
+            android:title="@string/menu_pickup_history" />
+        <item
+            android:id="@+id/nav_case_log"
+            android:icon="@drawable/ic_caselog"
+            android:title="@string/menu_case_log" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_logout" />
+
+    </group>
+
+</menu>

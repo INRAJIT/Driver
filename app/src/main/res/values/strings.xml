@@ -1,0 +1,283 @@
+<resources>
+    <string name="app_name">Driver New</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="driver_login">DRIVER LOGIN</string>
+    <string name="login_email">Email</string>
+    <string name="login_email_hint">Enter Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_password_hint">Enter Password</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+    <string name="login_info">New to Mottainai?</string>
+    <string name="login_details">Login Details</string>
+    <string name="signup">Signup</string>
+
+    <string name="signup_hauler">HAULER SIGN UP</string>
+    <string name="signup_individual">An Individual</string>
+    <string name="signup_individual_info">I am an individual who owns or rents a waste hauling vehicle(s) and may drive it myself or employ others to drive it(them). </string>
+    <string name="signup_company">A Company</string>
+    <string name="signup_company_info">I am registred company that owns or rents a waste hauling vehicle(s) and may drive them myself or employ others to drive them.</string>
+    <string name="signup_contact_details">Contact Details</string>
+    <string name="signup_name">Name</string>
+    <string name="signup_first_name">First Name</string>
+    <string name="signup_middle_name">Middle Name</string>
+    <string name="signup_last_name">Last Name</string>
+    <string name="signup_phone_number">Phone Number</string>
+    <string name="signup_phone_number_hint">08056098643</string>
+    <string name="signup_phone_number_verification">Phone Number\nVerification</string>
+    <string name="signup_phone_verification_info">We have sent you an OTP to %1$s. Please enter the OTP to verify your phone number to proceed.</string>
+    <string name="signup_enter_otp">Enter OTP</string>
+    <string name="signup_otp_resend">Resend</string>
+    <string name="signup_email_verification">Email verification</string>
+    <string name="signup_upload_license">Upload Driving License</string>
+    <string name="signup_license_details">Driving License Details</string>
+    <string name="signup_licence_number">Licence Number</string>
+    <string name="signup_license_expiry_date">Expiry Date</string>
+    <string name="signup_vehicle_details">Enter Vehicle Details</string>
+    <string name="signup_vehicle_type">Vehicle Type</string>
+    <string name="signup_vehicle_registration_no">Vehicle Registration Number</string>
+    <string name="signup_registraion_expires_on">Registration Expires On</string>
+    <string name="signup_upload_certificate">Upload Vehicle Registration Certificate</string>
+    <string name="signup_upload_insurance">Upload Vehicle Insurance Documents</string>
+    <string name="signup_upload_image">Upload Image</string>
+    <string name="signup_company_details">Company Details</string>
+    <string name="signup_company_name">Company Name</string>
+    <string name="signup_registration_number">Registration Number</string>
+    <string name="signup_company_location">Company Location</string>
+    <string name="signup_address">Address</string>
+    <string name="signup_pincode">Pincode</string>
+    <string name="signup_country">Country</string>
+    <string name="signup_state">State</string>
+    <string name="signup_city">City</string>
+    <string name="select_country">Select Country</string>
+    <string name="select_state">Select State</string>
+    <string name="select_city">Select City</string>
+    <string name="select_vehicle_type">Select Vehicle Type</string>
+
+    <string name="forgot_password_title">FORGOT PASSWORD</string>
+    <string name="forgot_password_login">Enter Login Email</string>
+    <string name="login_info_email">Enter the email you have used to register with Mottainai</string>
+    <string name="email_verification">Email Verification</string>
+    <string name="email_verification_info">We have sent an OTP to %1$s to verify it\'s you.</string>
+    <string name="reset_password">Reset Your Password</string>
+    <string name="new_password">New Password</string>
+    <string name="reenter_new_password">Re-Enter New Password</string>
+    <string name="reset_password_message">You have successfully reset your password</string>
+    <string name="reset_password_login">You can now login using your new password</string>
+    <string name="old_password">Old Password</string>
+    <string name="otp_resend_success">OTP has been sent successfully on your mail</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_notification">Notifications</string>
+    <string name="menu_add_customer">Add New Customer</string>
+    <string name="menu_add_order">Add Order</string>
+    <string name="menu_order_list">Order List</string>
+    <string name="menu_pickup_history">Pickup History</string>
+    <string name="menu_case_log">Case Log</string>
+    <string name="menu_logout">Logout</string>
+    <string name="my_profile"><u>My Profile</u></string>
+
+    <string name="status_title">Select Your Status</string>
+    <string name="status_ready">Ready</string>
+    <string name="status_truck_full">Truck Full</string>
+    <string name="status_on_break">On Break</string>
+    <string name="status_busy">Busy</string>
+
+    <string name="decline_reasons_title">Select reason to decline the pickup</string>
+    <string name="reason_bin_not_found">Bin not found</string>
+    <string name="reason_invalid_card">Invalid credit card number</string>
+    <string name="reason_address_wrong">Address wrong</string>
+    <string name="reason_customer_not_available">Customer not available in his own house</string>
+    <string name="reason_gather_waste">No gather waste</string>
+    <string name="reason_others">Others</string>
+    <string name="reason_comment">Comment</string>
+
+    <string name="enter_pickup_title">ENTER PICKUP DETAILS</string>
+    <string name="no_of_bags_collected">No.of bags collected</string>
+    <string name="weight">Weight</string>
+    <string name="scan_barcode"><u>Scan Barcode</u></string>
+    <string name="report_problem_title">REPORT A PROBLEM</string>
+    <string name="report_problem_info">Report a problem with this pickup</string>
+    <string name="preview_pickup_details_title">PREVIEW PICKUP DETAILS</string>
+
+    <string name="my_profile_title">MY PROFILE</string>
+    <string name="driving_licence_title">DRIVING LICENCE</string>
+    <string name="my_vehicle_title">MY VEHICLE</string>
+    <string name="driving_licence">Driving Licence</string>
+    <string name="my_vehicle">My Vehicle</string>
+    <string name="change_password">Change Password</string>
+    <string name="waste_stream">Waste Stream:</string>
+    <string name="zone">Zone:</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="nationality">Nationality</string>
+    <string name="validity_period">Validity Period</string>
+    <string name="iss">ISS - </string>
+    <string name="exp">EXP - </string>
+    <string name="kin_phone_number">Next of Kin Phone Number</string>
+
+    <string name="chassis_number">Chassis Number</string>
+    <string name="vehicle_registration_date">Vehicle Registration Date</string>
+    <string name="vehicle_model_no">Vehicle Model No.</string>
+    <string name="gps_device_id">GPS Device ID</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="fuel_type">Fuel Type</string>
+
+    <string name="select_customer_type">Select Customer Type</string>
+    <string name="customer_type_commercial">Commercial</string>
+    <string name="customer_type_residential">Residential</string>
+    <string name="search_hint">Search..</string>
+    <string name="search_customer">Search for a Customer</string>
+    <string name="search_customer_info">Please seach by customer name to make sure that the customer is not already listed with us.</string>
+    <string name="search_result">Search result</string>
+    <string name="search_no_record_found">No record found.</string>
+
+    <string name="select_industry">Select Industry</string>
+    <string name="business_finacial_institutions">Business &amp; Financial Institutions</string>
+    <string name="Manufacturing_and_construction">Manufacturing &amp; Constructing</string>
+    <string name="education">Education</string>
+    <string name="religious_organizations">Religious Organizations</string>
+    <string name="government_organizations">Government Organizations</string>
+    <string name="healthcare">Healthcare</string>
+    <string name="waste_help_us">Help us to understand your waste stream</string>
+    <string name="waste_select">Select waste material you typically generate</string>
+    <string name="pickup_location_on_map">Set pickup location on map</string>
+    <string name="address_error">We still need your proper address</string>
+    <string name="customer_added">Customer added successfully</string>
+    <string name="customer_next">Proceed to add other/service details</string>
+
+    <string name="add_order_title">ADD ORDER</string>
+    <string name="add_order_info">What are we picking up?</string>
+    <string name="order_type_paper">Paper</string>
+    <string name="order_type_glass">Glass</string>
+    <string name="order_type_metal">Metal</string>
+    <string name="order_type_electronics">Electronics</string>
+    <string name="order_type_plastic">Plastic</string>
+    <string name="order_type_healthcare">Health Care</string>
+    <string name="container_details">Container Details</string>
+    <string name="wheeler_bin">Wheeler Bin</string>
+    <string name="mammoth_bin">Mammoth Bin</string>
+    <string name="dino_bin">Dino Bin</string>
+    <string name="pickup_time">When do we pick it up?</string>
+    <string name="only_once">Only Once</string>
+    <string name="select_date_pickup">Select date of pickup</string>
+    <string name="type_date">Type your date</string>
+    <string name="weekly_pickup">Set a weekly pickup schedule</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="order_successful">Order added successfully</string>
+
+    <string name="pickup_history_title">PICKUP HISTORY</string>
+    <string name="select_month_year">Select Month</string>
+    <string name="select_date">Select Date</string>
+    <string-array name="month">
+        <item>Jan, 2020</item>
+        <item>Feb, 2020</item>
+        <item>Mar, 2020</item>
+        <item>Apr, 2020</item>
+        <item>May, 2020</item>
+        <item>Jun, 2020</item>
+        <item>Jul, 2020</item>
+        <item>Aug, 2020</item>
+        <item>Sep, 2020</item>
+        <item>Oct, 2020</item>
+        <item>Nov, 2020</item>
+        <item>Dec, 2020</item>
+    </string-array>
+
+    <string name="add_new_customer">ADD NEW CUSTOMER</string>
+    <string name="change_password_title">CHANGE PASSWORD</string>
+    <string name="notifications">NOTIFICATIONS</string>
+    <string name="options_title">OPTIONS</string>
+
+    <string name="case_log">CASE LOG</string>
+    <string name="case_log_list">CASE LOG LIST</string>
+    <string name="select_case_category">Select Category</string>
+    <string name="category">Category</string>
+    <string name="case_help">How can we help you ?</string>
+    <string name="case_log_details">CASE LOG DETAILS</string>
+    <string name="case_log_successful">Case log added successfully</string>
+
+    <string name="logout_info">Are you sure you want to logout ?</string>
+
+    <string name="driver_status_online">Driver is Online</string>
+
+    <string name="btn_login">Login</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_verify">Verify</string>
+    <string name="btn_finish">Finish</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_start_navigation">Start Navigation</string>
+    <string name="btn_reached_location">Reached Location</string>
+    <string name="btn_before_pickup">BEFORE PICKUP</string>
+    <string name="btn_after_pickup">AFTER PICKUP</string>
+    <string name="btn_complete">Mark as Complete</string>
+    <string name="btn_add_new_customer">Add New Customer</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_not_now">Not Now</string>
+    <string name="btn_home">Home</string>
+    <string name="btn_add_more">Add More</string>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_email">Not a valid email</string>
+    <string name="invalid_login_password">Please enter password</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="invalid_password_match">New-Password does not match with confirm-password</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="progress_dialog_title">Please Wait...</string>
+
+    <string name="invalid_company_name">Invalid company name</string>
+    <string name="invalid_company_registration">Invalid company registration number</string>
+    <string name="invalid_company_address_lineone">Invalid address line one</string>
+    <string name="invalid_company_address_linetwo">Invalid address line two</string>
+    <string name="invalid_company_pincode">Invalid pincode</string>
+    <string name="invalid_first_name">Invalid first name</string>
+    <string name="invalid_middle_name">Invalid middle name</string>
+    <string name="invalid_last_name">Invalid last name</string>
+    <string name="invalid_phone_number">Invalid phone number</string>
+    <string name="invalid_otp">Otp must be of 4 digits</string>
+    <string name="invalid_licence_no">Invalid driving licence no</string>
+    <string name="invalid_expiry_date">Invalid expiry date</string>
+    <string name="invalid_vehicle_type">Invalid vehicle type</string>
+    <string name="invalid_registration_no">Invalid registration no</string>
+    <string name="invalid_registration_certificate">Select Registration Certificate</string>
+    <string name="invalid_insurance_certificate">Select Insurance Certificate</string>
+    <string name="invalid_case_category">Please select category</string>
+    <string name="invalid_comment">Please enter comment</string>
+    <string name="invalid_reason">Please select reason</string>
+    <string name="invalid_search">Please enter search text</string>
+    <string name="invalid_bags">Please enter no of bags</string>
+    <string name="invalid_weight">Please enter weight</string>
+    <string name="invalid_trash_container">Please enter Trash - %1$s quantity</string>
+    <string name="invalid_barcode">Please scan barcode</string>
+
+    <string name="default_notification_channel_id">firebase</string>
+    <string name="barcode_scan_title">Barcode Scanner</string>
+
+    <!-- Settings related strings. -->
+    <string name="pref_screen_title_live_preview">Live preview settings</string>
+
+    <!-- Strings for camera settings. -->
+    <string name="pref_category_key_camera" translatable="false">pckc</string>
+    <string name="pref_category_title_camera">Camera</string>
+    <string name="pref_key_rear_camera_preview_size" translatable="false">rcpvs</string>
+    <string name="pref_key_rear_camera_picture_size" translatable="false">rcpts</string>
+    <string name="pref_key_front_camera_preview_size" translatable="false">fcpvs</string>
+    <string name="pref_key_front_camera_picture_size" translatable="false">fcpts</string>
+    <string name="pref_key_camera_live_viewport" translatable="false">clv</string>
+    <string name="pref_title_rear_camera_preview_size">Rear camera preview size</string>
+    <string name="pref_title_front_camera_preview_size">Front camera preview size</string>
+    <string name="pref_title_camera_live_viewport">Enable live viewport</string>
+    <string name="pref_summary_camera_live_viewport">Do not block camera preview drawing on detection</string>
+
+</resources>

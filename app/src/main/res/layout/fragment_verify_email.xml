@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg">
+
+    <TextView
+        android:id="@+id/enter_email"
+        style="@style/CustomTextViewBigHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/view_left_margin_default"
+        android:layout_marginTop="@dimen/view_top_margin_default"
+        android:text="@string/forgot_password_login"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/enter_email_info"
+        style="@style/CustomTextViewLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/view_left_margin_default"
+        android:layout_marginTop="@dimen/view_top_margin_default"
+        android:layout_marginEnd="@dimen/view_right_margin_default"
+        android:text="@string/login_info_email"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_email" />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/email"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/edit_text_height"
+        android:layout_marginStart="@dimen/view_left_margin_default"
+        android:layout_marginEnd="@dimen/view_right_margin_default"
+        android:layout_marginTop="@dimen/view_top_margin_default"
+
+        android:hint="@string/login_email_hint"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_email_info"
+        android:background="@drawable/rounded_corner_edittext"
+        style="@style/CustomEditText" />
+
+    <Button
+        android:id="@+id/next"
+        style="@style/CustomButton"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginStart="@dimen/view_left_margin_default"
+        android:layout_marginTop="@dimen/view_top_margin_medium"
+        android:layout_marginEnd="@dimen/view_right_margin_default"
+        android:background="@drawable/button_bg"
+        android:text="@string/btn_next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

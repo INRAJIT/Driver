@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pickup_navigation_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@drawable/rect_bg"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="@dimen/view_padding_medium"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/view_bottom_margin_medium"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/pickup_travel_time"
+            style="@style/CustomTextViewBigHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/view_right_margin_small"
+            android:textColor="@color/colorTextYellow" />
+
+        <TextView
+            android:id="@+id/pickup_travel_distance"
+            style="@style/CustomTextViewBigHeader"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorTextGrey" />
+
+        <ImageView
+            android:id="@+id/btn_call"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_call"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pickup_customer_type"
+        style="@style/CustomTextViewLargeBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/view_bottom_margin_medium"
+        android:text="Protea Hotel" />
+
+    <TextView
+        android:id="@+id/pickup_customer_address"
+        style="@style/CustomTextViewSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/view_bottom_margin_small"
+        android:drawableLeft="@drawable/ic_location"
+        android:text="2 Assibifi Road, Agidingbi, Ikeja, Lagos"
+        android:textColor="@color/colorTextGrey" />
+
+    <TextView
+        android:id="@+id/pickup_customer_email"
+        style="@style/CustomTextViewSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/view_bottom_margin_small"
+        android:drawableLeft="@drawable/ic_mail"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:text="you@email.com"
+        android:textColor="@color/colorTextGrey" />
+
+    <TextView
+        android:id="@+id/pickup_customer_phone"
+        style="@style/CustomTextViewSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/view_bottom_margin_small"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:text="00 0000 000000"
+        android:textColor="@color/colorTextGrey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/start_navigation"
+            style="@style/CustomButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginRight="@dimen/view_right_margin_small"
+            android:layout_weight="1"
+            android:background="@drawable/button_bg"
+            android:text="@string/btn_start_navigation" />
+
+        <Button
+            android:id="@+id/reached"
+            style="@style/CustomButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:background="@drawable/button_white_bg"
+            android:text="@string/btn_reached_location"
+            android:textColor="@color/colorPrimaryGreen" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

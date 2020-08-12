@@ -1,0 +1,116 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomToolbar">
+        <item name="android:fontFamily">@font/lato_font</item>
+        <item name="android:textSize">@dimen/toolbar_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="CustomTextViewNavigationBar">
+        <item name="android:fontFamily">@font/lato_font</item>
+        <item name="android:textColor">@color/colorTextGrey</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="CustomTextViewVerySmall">
+        <item name="android:fontFamily">@font/lato_font</item>
+        <item name="android:textSize">@dimen/text_size_very_small</item>
+        <item name="android:textColor">@color/colorTextDefault</item>
+    </style>
+
+    <style name="CustomTextViewVerySmallBold">
+        <item name="android:fontFamily">@font/lato_font</item>
+        <item name="android:textSize">@dimen/text_size_very_small</item>
+        <item name="android:textColor">@color/colorTextDefault</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomTextViewSmall">
+        <item name="android:fontFamily">@font/lato_font</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/colorTextDefault</item>
+    </style>
+
+    <style name="CustomTextViewSmallBold">
+        <item name="android:fontFamily">@font/lato_font</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/colorTextDefault</item>
+    </style>
+
+    <style name="CustomTextViewMedium">
+        <item name="android:fontFamily">@font/lato_font</item>
+        <item name="android:textColor">@color/colorTextDefault</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="CustomTextViewMediumBold">
+        <item name="android:fontFamily">@font/lato_font</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorTextDefault</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="CustomTextViewLarge">
+        <item name="android:fontFamily">@font/lato_font</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/colorTextDefault</item>
+    </style>
+
+    <style name="CustomTextViewLargeBold">
+        <item name="android:fontFamily">@font/lato_font</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/colorTextDefault</item>
+    </style>
+
+    <style name="CustomTextViewBigHeader">
+        <item name="android:fontFamily">@font/lato_font</item>
+        <item name="android:textSize">@dimen/text_size_big_header</item>
+        <item name="android:textColor">@color/colorTextDefault</item>
+    </style>
+
+    <style name="CustomEditText">
+        <item name="android:fontFamily">@font/lato_font</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/colorTextEdit</item>
+        <item name="android:paddingStart">8dp</item>
+    </style>
+
+    <style name="CustomButton">
+        <item name="android:fontFamily">@font/lato_font</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="CustomProgressBarTheme">
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="pinViewStyle" parent="@style/PinWidget.PinView">
+        <item name="android:fontFamily">@font/lato_font</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/colorTextDefault</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBoxBg"
+    android:padding="@dimen/view_padding_default">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_row_margin"
+            android:background="@android:color/white"
+            android:elevation="@dimen/card_elevation_medium">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/view_padding_small">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/view_right_margin_medium"
+                    android:background="@drawable/ic_notification">
+
+                </ImageView>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/title"
+                        style="@style/CustomTextViewMediumBold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/view_bottom_margin_small"
+                        android:text="Protea Hotel" />
+
+                    <TextView
+                        android:id="@+id/content"
+                        style="@style/CustomTextViewSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:text="Another update from social"
+                        android:textColor="@color/colorTextGrey" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/time"
+                    style="@style/CustomTextViewSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8:35"
+                    android:textColor="@color/colorTextGrey" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_row_margin"
+            android:background="@android:color/white"
+            android:elevation="@dimen/card_elevation_medium">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/view_padding_small">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/view_right_margin_medium"
+                    android:background="@drawable/ic_notification"
+                    android:backgroundTint="@color/colorNotificationBlue">
+
+                </ImageView>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/title"
+                        style="@style/CustomTextViewMediumBold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/view_bottom_margin_small"
+                        android:text="Protea Hotel" />
+
+                    <TextView
+                        android:id="@+id/content"
+                        style="@style/CustomTextViewSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:text="Another update from social"
+                        android:textColor="@color/colorTextGrey" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/time"
+                    style="@style/CustomTextViewSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8:35"
+                    android:textColor="@color/colorTextGrey" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_row_margin"
+            android:background="@android:color/white"
+            android:elevation="@dimen/card_elevation_medium">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/view_padding_small">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/view_right_margin_medium"
+                    android:background="@drawable/ic_notification">
+
+                </ImageView>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/title"
+                        style="@style/CustomTextViewMediumBold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/view_bottom_margin_small"
+                        android:text="Protea Hotel" />
+
+                    <TextView
+                        android:id="@+id/content"
+                        style="@style/CustomTextViewSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:text="Another update from social"
+                        android:textColor="@color/colorTextGrey" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/time"
+                    style="@style/CustomTextViewSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8:35"
+                    android:textColor="@color/colorTextGrey" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_row_margin"
+            android:background="@android:color/white"
+            android:elevation="@dimen/card_elevation_medium">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/view_padding_small">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/view_right_margin_medium"
+                    android:background="@drawable/ic_notification"
+                    android:backgroundTint="@color/colorNotificationGreen">
+
+                </ImageView>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/title"
+                        style="@style/CustomTextViewMediumBold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/view_bottom_margin_small"
+                        android:text="Protea Hotel" />
+
+                    <TextView
+                        android:id="@+id/content"
+                        style="@style/CustomTextViewSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:text="Another update from social"
+                        android:textColor="@color/colorTextGrey" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/time"
+                    style="@style/CustomTextViewSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8:35"
+                    android:textColor="@color/colorTextGrey" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

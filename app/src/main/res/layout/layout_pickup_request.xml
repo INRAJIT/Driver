@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pickup_request_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_marginLeft="@dimen/view_left_margin_default"
+    android:layout_marginRight="@dimen/view_right_margin_default"
+    android:background="@android:color/black"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="@dimen/view_padding_medium"
+    android:visibility="gone">
+
+    <TextView
+        android:id="@+id/customer_name"
+        style="@style/CustomTextViewBigHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/view_bottom_margin_medium"
+        android:text="Plastic and Metal"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/customer_type"
+        style="@style/CustomTextViewLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/view_bottom_margin_medium"
+        android:text="Protea Hotel"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/address"
+        style="@style/CustomTextViewSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/view_bottom_margin_default"
+        android:drawableLeft="@drawable/ic_location"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:drawableTint="@color/colorPrimaryGreen"
+        android:text="2 Assibifi Road, Agidingbi, Ikeja,\nLagos"
+        android:textColor="@color/colorTextGreyLight" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/reject"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="@dimen/view_bottom_margin_default"
+            android:background="@drawable/ic_reject">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/arrow_left"
+            android:layout_width="12dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/reject"
+            android:background="@drawable/ic_arrow_right">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/arrow_right"
+            android:layout_width="12dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/accept"
+            android:background="@drawable/ic_arrow_left">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/accept"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/view_bottom_margin_default"
+            android:background="@drawable/ic_accept">
+
+        </ImageView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

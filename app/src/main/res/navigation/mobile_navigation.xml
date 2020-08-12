@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mottainai.driver.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.mottainai.driver.ui.notifications.NotificationsFragment"
+        android:label="@string/menu_notification"
+        tools:layout="@layout/fragment_notifications" />
+
+    <activity
+        android:id="@+id/nav_pickup_history"
+        android:name="com.mottainai.driver.ui.pickuphistory.PickupHistoryActivity"
+        android:label="@string/menu_pickup_history"
+        tools:layout="@layout/activity_pickup_history" />
+
+    <fragment
+        android:id="@+id/nav_case_log"
+        android:name="com.mottainai.driver.ui.caselog.CaseLogFragment"
+        android:label="@string/menu_case_log"
+        tools:layout="@layout/fragment_case_log" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.mottainai.driver.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+</navigation>
