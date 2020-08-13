@@ -6,14 +6,14 @@
     android:orientation="vertical"
     android:paddingTop="@dimen/view_padding_medium">
 
-    <!-- id added by rajit in 1st textview-->
+    <!-- id added ... in 1st textview
     <TextView
         android:id="@+id/pickup_id"
         style="@style/CustomTextViewMediumBold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="id"
-        android:layout_marginBottom="@dimen/view_bottom_margin_small"/>
+        android:layout_marginBottom="@dimen/view_bottom_margin_small"/> -->
 
     <TextView
         android:id="@+id/waste_stream_name"

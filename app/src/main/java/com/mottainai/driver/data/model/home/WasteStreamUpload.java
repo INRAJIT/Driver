@@ -6,11 +6,10 @@ import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
 public class WasteStreamUpload {
-   // added by rajit
+   // added ...
     @SerializedName("pickup_id")
     @Expose
     private Integer pickupId;
-
     @SerializedName("waste_stream_name_id")
     private Integer wasteStreamNameId;
     @SerializedName("waste_stream_name")
@@ -21,11 +20,11 @@ public class WasteStreamUpload {
     @Expose
     private List<Bag> bags = null;
 
-    //added by rajit
+    //added ...
     public Integer getPickupId() {
         return pickupId;
     }
-    //added by rajit
+    //added ...
     public void setPickupId(Integer pickupId) {
         this.pickupId = pickupId;
     }

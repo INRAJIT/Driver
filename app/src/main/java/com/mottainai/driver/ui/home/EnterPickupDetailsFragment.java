@@ -108,6 +108,8 @@ public class EnterPickupDetailsFragment extends Fragment implements View.OnClick
                 LinearLayout bagLayout = wasteStreamView.findViewById(R.id.bag_layout);
                 wasteStreamName.setText(wasteStream.getWasteStreamName());
                 wasteStreamView.setTag(wasteStream.getWasteStreamNameId());
+                //added ...
+                wasteStreamView.setTag(wasteStream.getPickupId());
 
                 editQuantity.addTextChangedListener(new TextWatcher() {
                     @Override
@@ -183,8 +185,8 @@ public class EnterPickupDetailsFragment extends Fragment implements View.OnClick
                 bundle.putString(Constants.KEY_CUSTOMER_IMAGE, pickupActivity.customerImage);
                 bundle.putString(Constants.KEY_CUSTOMER_NAME, pickupActivity.customerName);
                 bundle.putString(Constants.KEY_CUSTOMER_ADDRESS, pickupActivity.customerAddress);
-                // for pickup id rajit
-                bundle.putIntegerArrayList(Constants.KEY_PICKUP_IDS, (ArrayList<Integer>) pickupIdList);
+                // for pickup id ...
+               // bundle.putIntegerArrayList(Constants.KEY_PICKUP_IDS, (ArrayList<Integer>) pickupIdList);
 
                 bundle.putString(Constants.KEY_PICKUP_JSON, pikcupJson);
                 previewPickupDetailsFragment.setArguments(bundle);

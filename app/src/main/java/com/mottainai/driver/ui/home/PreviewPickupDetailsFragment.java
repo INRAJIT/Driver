@@ -1,5 +1,6 @@
 package com.mottainai.driver.ui.home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,6 +20,7 @@ import com.bumptech.glide.load.DecodeFormat;
 import com.bumptech.glide.request.target.Target;
 import com.google.gson.Gson;
 import com.mottainai.driver.BaseActivity;
+import com.mottainai.driver.DashboardActivity;
 import com.mottainai.driver.R;
 import com.mottainai.driver.data.model.home.WasteStreamUploadRequest;
 import com.mottainai.driver.ui.caselog.CaseLogListAdapter;
@@ -76,6 +78,7 @@ public class PreviewPickupDetailsFragment extends Fragment implements View.OnCli
         progressBar = new CustomProgressBar();
 
         complete.setOnClickListener(this);
+      
     }
 
     private void getDataFromLastScreen() {

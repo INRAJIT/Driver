@@ -37,8 +37,8 @@ public class PreviewPickupListAdapter extends RecyclerView.Adapter<PreviewPickup
     public void onBindViewHolder(@NonNull PreviewPickupListViewHolder holder, int position) {
         WasteStreamUpload wasteStreamUpload = wasteStreamUploadList.get(position);
         holder.wasteStreamName.setText(wasteStreamUpload.getWasteStreamName());
-        //added by rajit
-        holder.wasteStreamName.setText(wasteStreamUpload.getPickupId());
+        //added...
+       // holder.wasteStreamName.setText(wasteStreamUpload.getPickupId());
 
         List<Bag> bagList = wasteStreamUpload.getBags();
         List<ContainerRequest> containerRequestList = wasteStreamUpload.getContainer();
@@ -77,8 +77,8 @@ public class PreviewPickupListAdapter extends RecyclerView.Adapter<PreviewPickup
 
         public PreviewPickupListViewHolder(@NonNull View itemView) {
             super(itemView);
-            // id added by rajit
-            id = itemView.findViewById(R.id.pickup_id);
+            // id added...
+         //  id = itemView.findViewById(R.id.pickup_id);
 
             wasteStreamName = itemView.findViewById(R.id.waste_stream_name);
             quantity = itemView.findViewById(R.id.quantity);
