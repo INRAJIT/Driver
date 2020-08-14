@@ -51,7 +51,7 @@ public class PreviewPickupDetailsFragment extends Fragment implements View.OnCli
 
     private void init(View rootView) {
         getDataFromLastScreen();
-        ((BaseActivity)getActivity()).setToolbarTitle(getString(R.string.preview_pickup_details_title));
+        ((BaseActivity) getActivity()).setToolbarTitle(getString(R.string.preview_pickup_details_title));
         imageCustomerImage = rootView.findViewById(R.id.customer_image);
         textCustomerName = rootView.findViewById(R.id.customer_name);
         textCustomerAddress = rootView.findViewById(R.id.customer_address);
@@ -77,7 +77,13 @@ public class PreviewPickupDetailsFragment extends Fragment implements View.OnCli
         complete = rootView.findViewById(R.id.complete);
         progressBar = new CustomProgressBar();
 
-        complete.setOnClickListener(this);
+        complete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), DashboardActivity.class);
+                startActivity(intent);
+            }
+        });
       
     }
 

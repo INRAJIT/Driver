@@ -252,12 +252,12 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
        // **for Settings in dashboard hidden
         
-        // if (item.getItemId() == R.id.settings) {
-           // Intent intent = new Intent(this, LivePreviewActivity.class); /// Nope
-          //  startActivity(intent);  // Nope
+         if (item.getItemId() == R.id.settings) {
+            Intent intent = new Intent(this, LivePreviewActivity.class); /// Nope
+            startActivity(intent);  // Nope
             return true;
-      //  }
-      //  return super.onOptionsItemSelected(item);
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
