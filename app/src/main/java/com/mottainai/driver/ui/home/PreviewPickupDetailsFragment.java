@@ -76,14 +76,6 @@ public class PreviewPickupDetailsFragment extends Fragment implements View.OnCli
         recyclerView.setAdapter(previewPickupListAdapter);
         complete = rootView.findViewById(R.id.complete);
         progressBar = new CustomProgressBar();
-
-        complete.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), DashboardActivity.class);
-                startActivity(intent);
-            }
-        });
       
     }
 
