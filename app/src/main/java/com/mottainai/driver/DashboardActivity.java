@@ -78,7 +78,7 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
-
+/
     private void init() {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
