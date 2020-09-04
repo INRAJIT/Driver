@@ -153,8 +153,9 @@ public class DashBoardRepository {
         });
     }
 
- ///Addtion by rajit for new api which response name is "Total Driver Pickup Response" ////
 
+    
+    
     public void postTotalPickup(Total_Driver_PickUp_Request total_driver_pickUp_request, MutableLiveData<Total_Driver_PickUp_Response> total_driver_pickUp_response) {
         apiInterface.postTotalPickup(total_driver_pickUp_request).enqueue(new Callback<Total_Driver_PickUp_Response>() {
             @Override
